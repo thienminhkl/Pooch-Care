@@ -354,6 +354,135 @@ header.nav-fixed {
 }
 
 
+/* CAROUSEL */
+#portCarousel .carousel-item>img {
+    height: 100vh;
+    object-fit: cover;
+}
+
+#portCarousel .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    margin: 5px 2px;
+    background: #fff;
+    display: block;
+    transition: opacity .2s ease;
+    border-radius: 25px;
+    position: relative;
+    opacity: 0.9;
+    border: 0;
+}
+
+#portCarousel .carousel-indicators li.active,
+#portCarousel .carousel-indicators li:hover {
+    background-color: #35a22c;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#portCarousel .carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#portCarousel .carousel-inner h5 {
+    font-size: 66px;
+    line-height: 76px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+#portCarousel .carousel-inner p {
+    color: #fff;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 30px;
+    opacity: 0.9;
+}
+
+#portCarousel .carousel-inner a {
+    color: #fff;
+    background-color: #ffffff00;
+    border: 2px solid #fff;
+    padding: 10px 35px;
+    border-radius: 10px;
+}
+
+#portCarousel .carousel-inner a:hover {
+    color: #189a46;
+    background-color: #fff;
+}
+
+#portCarousel .carousel-inner a.active {
+    color: #189a46;
+    background-color: #fff;
+}
+
+#portCarousel .banner-info-bg {
+    max-width: 700px;
+}
+
+.owl-theme .owl-dots {
+    text-align: center;
+    display: block;
+}
+
+.owl-theme .owl-nav {
+    display: none;
+}
+
+.owl-dots {
+    margin-top: 0px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 30px;
+}
+
+.owl-theme .owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1;
+    background: transparent;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+    border: none;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 2px;
+    background: #fff;
+    display: block;
+    transition: opacity .2s ease;
+    border-radius: 25px;
+    position: relative;
+    opacity: 0.9;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #189a46;
+    width: 30px;
+    height: 10px;
+}
+
+
 /* SCREEN */
 @media screen and (max-width: 992px) {
     header .navbar-toggler {
