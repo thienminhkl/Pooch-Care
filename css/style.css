@@ -554,6 +554,29 @@ header.nav-fixed {
     text-decoration: none;
 }
 
+/* OFFER */
+.offer .cwp4-text ul li {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 15px 0;
+    font-weight: 600;
+}
+
+.offer .cwp4-text ul {
+    list-style: none;
+}
+
+.offer ul.cont-4 li span.fa {
+    color: #189a46;
+    margin-right: 12px;
+    font-size: 10px;
+    padding: 8px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
 
 /* SCREEN */
 @media screen and (max-width: 992px) {
