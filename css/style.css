@@ -577,6 +577,37 @@ header.nav-fixed {
     display: inline-block;
 }
 
+/* NUMBER */
+.number {
+    background: #189a46;
+}
+
+.stats_info {
+    text-align: center;
+    padding: 0;
+    border-top: none;
+    border-bottom: none;
+}
+
+.stats_info p {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.stats_info h4 {
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #fff;
+    margin-top: 10px;
+    opacity: 0.8;
+    font-weight: 400;
+}
+
 
 /* SCREEN */
 @media screen and (max-width: 992px) {
