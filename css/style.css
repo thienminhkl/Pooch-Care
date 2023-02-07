@@ -578,6 +578,41 @@ header.nav-fixed {
 }
 
 
+
+
+
+/* BACK TO TOP */
+.backToTop {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #189A46;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 39px;
+
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 50%;
+    transition: 0.3s ease-out;
+}
+
+.backToTop:hover {
+    color: #fff;
+    text-decoration: none;
+    transform: translate3d(0, -5px, 0);
+    transition: 0.3s ease-out;
+}
+
+.cd-top--is-visible {
+    visibility: visible;
+    opacity: 1;
+}
+
 /* SCREEN */
 @media screen and (max-width: 992px) {
     header .navbar-toggler {
