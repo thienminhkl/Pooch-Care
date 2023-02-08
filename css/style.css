@@ -1106,7 +1106,93 @@ button.mfp-close, button.mfp-arrow {
     padding-left: 20px;
     padding-right: 20px;
 }
+/* FOOTER */
+footer{
+    background-color: #111;
+}
+footer h6.footer-title {
+    color: #fff;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
 
+footer .footer-list ul li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+footer .footer-list ul li p {
+    font-weight: normal;
+    font-size: 16px;
+    color: #696969;
+    line-height: 28px;
+}
+
+footer .midd-footer {
+    background: #111;
+    border-top: 1px solid rgba(103, 99, 99, 0.14);
+}
+
+footer .footer-list ul li:last-child {
+    margin-bottom: 0px;
+}
+
+footer ul.social-icons {
+    margin-top: 3px;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+footer ul.social-icons li {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 0;
+}
+
+footer .main-social-footer a:last-child {
+    margin-right: 0;
+}
+
+footer ul.social-icons li a span {
+    font-size: 16px;
+    color: #696969;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+#myBody footer ul a{
+    color: #696969;
+    cursor: pointer;
+}
+
+#myBody footer ul a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+
+footer .copy-footer {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #696969;
+    margin-bottom: 0;
+}
+
+#myBody .midd-footer a{
+    color: #f53626;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+#myBody .midd-footer a:hover {
+    text-decoration: underline;
+}
 
 
 /* BACK TO TOP */
