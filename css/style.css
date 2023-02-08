@@ -961,7 +961,131 @@ button.mfp-close, button.mfp-arrow {
     color: #189A46;
 }
 
+/* TESTIMONIAL */
+.testimonials-clients .testimonial-width {
+    max-width: 1050px;
+    margin: auto;
+}
 
+.no-js .owl-carousel, .owl-carousel.owl-loaded {
+    display: block;
+}
+
+.owl-carousel {
+    display: none;
+    width: 100%;
+}
+
+.owl-carousel, .owl-carousel .owl-item {
+    position: relative;
+}
+
+.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+}
+
+.testimonials .owl-stage{
+    width: 3210px;
+    transform: translate3d(0px, 0px, 0px);
+    transition: all 0s ease 0s;
+}
+
+.testimonials .owl-item{
+    width: 515px;
+    margin-right: 20px;
+}
+
+.testimonials .testimonial {
+    display: block;
+    margin: 0;
+    padding: 40px 30px;
+    position: relative;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 25px 98px 0 rgb(19 19 19 / 3%);
+}
+
+.testimonials .testimonial blockquote {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    position: relative;
+    margin-bottom: 1.5em;
+}
+
+.testimonials blockquote q {
+    font-size: 1.2em;
+    line-height: 28px;
+    color: #696969;
+}
+
+.testimonials blockquote q::before {
+    font-size: 50px;
+    color: #696969;
+    line-height: .8;
+    padding-top: 8px;
+    font-weight: 600;
+    display: inline-block;
+}
+.testimonials .testi-des {
+    display: flex;
+    text-align: center;
+}
+.testimonials .test-img {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    overflow: hidden;
+    background: #151515;
+    border-radius: 50%;
+}
+
+.testimonials .testimonial img {
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.testimonials .testimonial .peopl {
+    margin: 0;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.testimonials .testimonial .peopl h3 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.testimonials p.indentity {
+    color: #777;
+    font-size: 17px;
+    font-style: normal;
+    margin-bottom: 0;
+    text-align: left;
+    opacity: 0.8;
+}
+
+.owl-two.owl-carousel.owl-theme .owl-dots {
+    position: inherit;
+    left: 0px;
+    right: 0px;
+    bottom: 30px;
+    margin-top: 80px;
+}
+
+.owl-two.owl-carousel.owl-theme span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 2px;
+    background: #d8d8d8;
+    display: block;
+    border-radius: 25px;
+    position: relative;
+}
 
 
 
