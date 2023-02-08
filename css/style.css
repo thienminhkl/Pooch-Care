@@ -650,6 +650,185 @@ header.nav-fixed {
     }
 }
 
+/* PLANS */
+.plans .plans-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 5% auto;
+    margin-top: 0;
+    width: 90%;
+}
+
+.plans .plans-gd-left {
+    background: #151515;
+    border-radius: 6px;
+    align-self: center;
+}
+
+.plans .pric-1 .w3l-plans {
+    padding: 3.5em 2.5em;
+    border-right: 0;
+}
+
+.w3l-plans-top {
+    text-align: center;
+}
+
+.plans h6 {
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.plans h4 {
+    font-size: 40px;
+    line-height: 45px;
+    margin: 15px 0 20px;
+    text-align: center;
+    font-weight: 600;
+    color: #189a46;
+}
+
+.plans h4 span {
+    font-size: 16px;
+    line-height: 25px;
+    color: #999;
+    font-weight: 400;
+}
+
+.plans h4 label {
+    font-size: 25px;
+    vertical-align: text-top;
+}
+
+.w3l-plans-bottom {
+    text-align: center;
+    padding-top: 1em;
+}
+
+.plans ul.links {
+    min-height: 120px;
+}
+
+.plans ul.links li {
+    list-style: none;
+    margin-bottom: 5px;
+    color: #304659;
+}
+
+.plans p.lists {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: normal;
+    align-self: center;
+    padding-top: 6px;
+}
+
+.plans .buy-button {
+    margin-top: 2em;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #116E32;
+    border-color: #116E32;
+    text-decoration: none;
+}
+
+.btn-style {
+    padding: 12px 35px;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    font-weight: 400;
+    transition: 0.3s ease-in;
+    border-radius: 15px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #189A46;
+    border-color: #189A46;
+}
+
+.plans-gd-left.pric.active .w3l-plans-top {
+    padding: 3em 2.5em 0.5em;
+    background: #189a46;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.plans h5 {
+    font-size: 15px;
+    line-height: 20px;
+    color: #189a46;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: 700;
+    display: inline-block;
+    padding: 8px 20px;
+    background: #fff;
+    border-radius: 15px;
+}
+
+.plans h6 {
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.plans h4 {
+    font-size: 40px;
+    line-height: 45px;
+    margin: 15px 0 20px;
+    text-align: center;
+    font-weight: 600;
+    color: #189a46;
+}
+
+.plans h4 label {
+    font-size: 25px;
+    vertical-align: text-top;
+}
+
+.plans h4 span {
+    font-size: 16px;
+    line-height: 25px;
+    color: #999;
+    font-weight: 400;
+}
+
+.plans .plans-gd-left.active h4 {
+    color: #fff;
+}
+
+.plans .plans-gd-left.active h4 {
+    color: #fff;
+}
+
+.plans-gd-left.pric.active .w3l-plans-bottom {
+    padding: 2em 2.5em 3.5em;
+}
+
+.plans .pric-2 .w3l-plans {
+    padding: 3.5em 2.5em;
+    border-left: 0;
+}
+
+.plans .plans-gd-left.active {
+    z-index: 1;
+    margin: 0;
+    box-shadow: 0 10px 30px 0 rgb(17 17 17 / 9%);
+    border-radius: 10px;
+}
 
 
 
