@@ -1086,7 +1086,26 @@ button.mfp-close, button.mfp-arrow {
     border-radius: 25px;
     position: relative;
 }
+/* CONTACT */
+.contact .subscribe {
+    max-width: 650px
+}
 
+.contact .subscribe-wthree-field {
+    justify-content: space-between;
+}
+
+.contact form.subscribe-wthree input[type="email"] {
+    font-size: 16px;
+    color: #696969;
+    border-radius: 15px;
+    padding: 0px 20px;
+    flex-basis: 70%;
+    background: #fff;
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 
 
